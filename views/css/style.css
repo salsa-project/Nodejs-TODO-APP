@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: monospace, cursive;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: lightgray;
+}
+#logo{
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  height: 200px;
+  width: 200px;
+  background: white;
+  transform: rotate(-45deg);
+}
+img{
+  height: 50px;
+  width: 50px;
+  margin-top: 65px;
+  margin-left: -5px;
+  transform: rotate(45deg);
+}
+h1{
+  margin-bottom: 40px;
+  color: gray;
+  font-size: 42pt;
+  opacity: 0.4;
+}
+div{
+  width: 50%;
+  padding: 10px;
+  background: #7142f4;
+  border-radius: 3px;
+}
+form{
+  padding: 5px;
+}
+input{
+  float: left;
+  height: 40px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px purple solid;
+  border-right: 0px;
+  border-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+button{
+  height: 40px;
+  width: 20%;
+  margin: 0 auto;
+  color: purple;
+  background: white;
+  font-weight: 600;
+  border: 1px purple solid;
+  border-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+li{
+  padding: 10px 0px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+li:hover{
+  background: #f27857;
+  text-decoration: line-through;
+  cursor: pointer;
+}

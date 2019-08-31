@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="logo"> <img src="images/logo.png" alt="LOGO"> </div>
+    <h1>Stuff Todo</h1>
+    <div>
+    <form action="/todo" method="post">
+      <input type="text" name="item" placeholder="Run For 30min.." required>
+      <button type="submit">ADD</button>
+    </form>
+    <ul>
+      <% for(var i = data.length-1; i >= 0; i--){ %>
+        <li class="item"><%= data[i].item %></li>
+      <% } %>
+    </ul>
+    </div>
+    <script type="text/javascript" src="js/todoScript.js"></script>
+  </body>
+</html>
