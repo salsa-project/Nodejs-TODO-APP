@@ -8,4 +8,4 @@
 <li>EXPRESS.JS</li>
 <li>EJS</li>
 </ol>
-<a target="_blank" rel="noopener noreferrer" href="https://nodejs-todo01.herokuapp.com/">PREVIEW DEMO CLICK HERE :)</a>
+<a rel="noopener noreferrer" href="https://nodejs-todo01.herokuapp.com/todo">PREVIEW DEMO CLICK HERE :)</a>
